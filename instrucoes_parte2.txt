@@ -1,0 +1,82 @@
+git clone https://github.com/ramoswrr/CursoGit.git
+clona um repertório remoto na sua máquina.
+
+
+git pull
+baixa as alterações do repositório remoto
+Mantém o repositório sincronizado com os últimos commits de uma branch.
+
+
+Navegar no histórico
+git log
+git checkout <commit> <file>
+· Permite ver como um arquivo ou todo o repositório estava em um determinado commit.
+
+git checkout main
+. para voltar o repositório no último commit
+
+Desfazendo alterações
+git checkout -- < path or file>
+· Irá desfazer todas as alterações que não estejam no Stage desde o último commit.
+git checkout HEAD -- < path file>
+· Desfazer as alterações desde o último commit incluindo o Stage.
+
+  Exemplo de uso: 
+    git reset HEAD~1 //volta 1 commit para trás. 
+    git reset HEAD~2 //volta 2 commit para trás. 
+    git reset HEAD~2 --hard //volta 2 commit para trás. 
+
+Git Revert
+git revert <commit>
+· Irá criar um novo commit que desfaz as alterações do commit especificado.
+· Útil para desfazer um commit antigo.
+
+Git reset
+git reset <commit>
+· Resetar o repositório para um determinado commit.
+git reset -- hard <commit>
+· Resetar e remover todas as alterações.
+- Cuidado ao usar! Não usar se já estiver publicado.
+· Útil para desfazer últimos commits.
+
+Conflitos
+· Conflitos podem acontecer ao unirmos alterações.
+· Acontecem quando versões diferentes possuem as mesmas linhas nos mesmos arquivos editadas diferentes.
+· O Git identifica os conflitos e fica aguardando a solução deles.
+· Ao resolver os conflitos deve ser feito um commit.
+
+Exercício 3
+· Crie um conflito no repositório do seu par.
+· Seu par deve editar o mesmo arquivo que você.
+· Você deve fazer o pull, resolver o conflito e fazer o push das suas alterações.
+· Seu par deve ver que a sua alteração foi adicionada junto à alteração dele.
+· Invertam os papéis.
+
+Branch
+· É uma lista de commits.
+· Representa ramificações no repositório.
+· Muito útil para trabalhos colaborativos.
+· Branchs de desenvolvimento facilitam o controle.
+· Branch master é a padrão.
+git branch
+
+Branching
+git branch <nova branch>
+· Cria uma nova branch.
+git branch -d <branch>
+· Excluir uma branch.
+
+Git Checkout Branch
+git checkout <branch>
+· Muda para a branch.
+· Seu repositório passa a ter os commits que a branch possui e novos commits serão adicionados à ela.
+
+Exercício 4
+· Crie uma nova branch no seu repositório.
+· Mude para esta branch e faça pelo menos 2 commits.
+· Faça o upload e veja sua nova branch no GitHub.
+· Faça um commit na master que altere as mesmas linhas.
+· Veja como as branchs divergem no GitHub.
+
+
+
