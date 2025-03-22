@@ -84,3 +84,14 @@ git config --global core.editor "code --wait"
 Revertendo:git config --global --unset core.editor
 
 
+Git Merge
+git merge <branch>
+· Aplicar os commits de uma branch na branch atual.
+· Encontra um commit comum(base) entre as branchs e aplica todos os commits que a branch atual não possui.
+· Caso existam commits na branch atual que não estão na outra, será criado um commit de merge.
+
+
+Exercício 5
+· Fazer o merge da nova branch na master.
+· Resolver o conflito e visualizar no GitHub o gráfico das branchs.
+
