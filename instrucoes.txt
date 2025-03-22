@@ -252,3 +252,5 @@ Configurar o editor padrão do Git: Se você preferir usar o Visual Studio Code 
 git config --global core.editor "code --wait"
 
 Depois de fechar o editor ou usar o comando correto, o Git deve continuar com o processo de commit.
+
+Para reverter: git config --global --unset core.editor
