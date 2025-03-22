@@ -237,3 +237,18 @@ Depois de executar o `git push`, vá até o repositório no GitHub e confirme se
 ---
 
 Se precisar de mais alguma coisa, é só avisar! 😊
+
+//////////////////////////////////////////////////////////
+Parece que você está tentando sair do editor de commit do Git, mas o comando :wq não foi reconhecido corretamente. Isso pode acontecer se você estiver usando um editor diferente do Vim.
+
+Para resolver isso, tente o seguinte:
+
+Feche o editor manualmente: Se você estiver usando o Visual Studio Code, simplesmente feche a aba do editor que contém a mensagem de commit.
+
+Use o comando correto: Se você estiver no terminal e o editor padrão for o Vim, certifique-se de que você está no modo de comando pressionando Esc e depois digite :wq e pressione Enter.
+
+Configurar o editor padrão do Git: Se você preferir usar o Visual Studio Code como seu editor de commit, você pode configurá-lo como o editor padrão do Git com o seguinte comando no terminal:
+
+git config --global core.editor "code --wait"
+
+Depois de fechar o editor ou usar o comando correto, o Git deve continuar com o processo de commit.
