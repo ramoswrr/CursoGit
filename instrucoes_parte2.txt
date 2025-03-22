@@ -95,3 +95,26 @@ Exercício 5
 · Fazer o merge da nova branch na master.
 · Resolver o conflito e visualizar no GitHub o gráfico das branchs.
 
+Git Rebase
+git rebase <branch>
+· Semelhante ao Merge porém é diferente na ordem de aplicar os commits.
+· No Rebase, os seus commits na frente da base são removidos temporariamente, os commits de outra branch são aplicados na sua branch e por fim seus commits são aplicados um a um.
+· Pode acontecer conflitos que serão resolvidos para cada commit.
+
+Git Fetch
+git fetch
+· Baixa as atualizações do remote porém não aplica elas no repositório.
+· Permite fazer o rebase de uma branch em vez de fazer o merge.
+· Pull = Fetch + Merge
+· Fetch e Rebase é melhor para manter histórico do desenvolvimento.
+
+Exercício 7
+· Com a branch master sincronizadas você e seu par devem fazer commits na master.
+· Seu par deve fazer o push dos commits dele.
+· Antes de você fazer o push dos seus commits você deve fazer o rebase com os commits do seu par.
+
+Tag
+· Útil para definir versões estáveis do projeto.
+· Semelhante a Branch porém não recebe mais commits.
+· Guarda um estado do repositório. git tag [nome da tag]
+git push <remote> <tag>
