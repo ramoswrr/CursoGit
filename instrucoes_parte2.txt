@@ -118,3 +118,33 @@ Tag
 · Semelhante a Branch porém não recebe mais commits.
 · Guarda um estado do repositório. git tag [nome da tag]
 git push <remote> <tag>
+
+Fork no GitHub
+· Copia um repositório de outro usuário para o seu usuário no GitHub.
+· É assim que começa a contribuição para outros projetos.
+· Você teria uma cópia independente do repositório original, podendo fazer quaisquer alterações.
+For
+
+
+Issues no GitHub
+· Tradução: Questões.
+· Reportar bugs.
+· Organizar tarefas a serem feitas.
+· Permite discussão entre os usuários.
+· Pode ser referenciado por commits.
+- Commit: "Closes #3"
+
+Pull Request
+· O grande simbolo de colaboração.
+· É quando você solicita que sua alterações sejam unidas a uma branch no mesmo repositório ou a um repositório que sofreu o fork.
+· Igual uma Issue porém com uma branch associada.
+· Muito útil para o trabalho colaborativo.
+
+Fluxo do GitHub
+· https://guides.github.com/introduction/flow/
+
+Exercício Final
+· Faça um fork deste repositório: https://github.com/BrOrlandi/GitTrainingWall
+· Rode o projeto.
+· Sua tarefa é criar um template com informações do seu usuário no GitHub.
+· Faça o trabalho em um branch separada e depois crie um Pull Request para o repositório original.
