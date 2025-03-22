@@ -172,3 +172,68 @@ O erro ocorre porque o Git tenta enviar uma branch chamada `main`, mas essa bran
 
 ### **Se o erro persistir**
 Se você ainda encontrar problemas, me informe a mensagem completa do erro para que eu possa ajudá-lo a resolver! 😊
+
+
+//////////////////////////////////////////////////////////
+Ótimo saber que funcionou! Agora, para incluir o arquivo `instrucoes.txt` que você acabou de alterar no repositório remoto, basta seguir os passos abaixo. Vou detalhar cada etapa:
+
+---
+
+### **1. Verifique se o arquivo foi alterado**
+Antes de tudo, veja se o Git reconheceu as alterações no arquivo `instrucoes.txt`. Use o comando:
+
+```powershell
+git status
+```
+
+Se o arquivo foi alterado, ele aparecerá listado como **"modified"** ou **"untracked"**.
+
+---
+
+### **2. Adicione o arquivo ao controle de versão**
+Para adicionar o arquivo ao repositório, use:
+
+```powershell
+git add instrucoes.txt
+```
+
+Isso prepara o arquivo para ser incluído no próximo commit.
+
+---
+
+### **3. Faça o commit das alterações**
+Agora, registre as alterações no histórico do repositório com o comando:
+
+```powershell
+git commit -m "Atualizando instrucoes.txt com alterações recentes"
+```
+
+---
+
+### **4. Envie as alterações para o repositório remoto**
+Por fim, envie o commit para o repositório remoto com:
+
+```powershell
+git push origin main
+```
+
+---
+
+### **Resumo dos comandos**
+Aqui está o conjunto completo de comandos que você deve usar:
+
+```powershell
+git status
+git add instrucoes.txt
+git commit -m "Atualizando instrucoes.txt com alterações recentes"
+git push origin main
+```
+
+---
+
+### **5. Verifique no GitHub**
+Depois de executar o `git push`, vá até o repositório no GitHub e confirme se o arquivo `instrucoes.txt` foi atualizado corretamente.
+
+---
+
+Se precisar de mais alguma coisa, é só avisar! 😊
