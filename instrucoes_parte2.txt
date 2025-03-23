@@ -148,3 +148,6 @@ Exercício Final
 · Rode o projeto.
 · Sua tarefa é criar um template com informações do seu usuário no GitHub.
 · Faça o trabalho em um branch separada e depois crie um Pull Request para o repositório original.
+
+Checkout em Pull Request
+git fetch origin pull/ID/head: BRANCH · Cria uma branch com os commits do pull request
