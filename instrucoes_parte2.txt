@@ -151,3 +151,14 @@ Exercício Final
 
 Checkout em Pull Request
 git fetch origin pull/ID/head: BRANCH · Cria uma branch com os commits do pull request
+
+
+.gitignore
+· Configura arquivos que devem ser ignorados
+· Contém arquivos, caminhos e patterns
+
+Git Commit Ammend
+git commit -ammend · Altera o último commit.
+- Mensagem de commit.
+- Adiciona arquivos.
+
